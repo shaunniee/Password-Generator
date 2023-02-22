@@ -58,9 +58,7 @@ function PasswordGenerator() {
     if (conditions.isSpecial) {
       character += specialCharacters;
     }
-    if (conditions.len < 8) {
-      setMessage((prev) => ({ ...prev, message: "Too short", color: "red" }));
-    }
+  
     let password = "";
     const charLen = character.length;
     for (let i = 0; i < conditions.len; i++) {
