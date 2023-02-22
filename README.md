@@ -12,3 +12,5 @@ SCSS modules were used
 <li>Prop drilling to send the password as prop to password strength component</li>
 <li>Copy to clipboard function</li>
 </ul>
+</br>
+URL:https://main--passwordgeneratorsvd.netlify.app
